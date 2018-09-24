@@ -1,22 +1,48 @@
-#add-btn-form {
-	margin: 25px auto;
+body {
+  background-color: rgb(45, 45, 49); 
+  background: linear-gradient(to bottom, rgb(37, 37, 37), rgba(222,112,6,0.2), #000000);
+    background-size: cover;
+    color: aqua;
+
 }
 
-.giphy-gif {
-	display: inline-block;
-	width: 250px;
-	padding: 10px;
-	margin: 20px 20px;
+h1 {
+    font-family: Lobster;
+    color: bisque;
 }
 
-.giphy-rating {
-	font-weight: bold;
+.ratings {
+    color: yellow;
+    font-family: avenir;
+    font-size: 18px;
 }
 
-.gif-img:hover {
-	border: 2px solid #337AB7;
+h1 {
+    color: white;
+    font-size: 45px;
 }
 
-.panel-footer {
-	margin-top: 5px;
+.btn-primary {
+    margin-left: 10px;
+    background: yellow;
+    color: blue;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: red;
+    }
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: white;
 }
